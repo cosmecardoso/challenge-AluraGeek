@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho da aplicação -->
+    <header>
+        <img src="img/nav3.png" alt="Logotipo AluraGeek">
+    </header>
+    <!-- Conteúdo principal da aplicação -->
+    <main>
+        <!-- Seção de produtos -->
+        <section class="products">
+            <h1>Produtos</h1>
+            <div class="product-list"></div>
+            <p class="no-products">Nenhum produto foi adicionado.</p>
+        </section>
+        <!-- Seção de adicionar produto -->
+        <section class="add-product">
+            <h1>Adicionar Produto</h1>
+            <form id="product-form">
+                <input type="text" id="product-name" placeholder="Nome do Produto" required>
+                <input type="number" id="product-price" placeholder="Preço do Produto" required>
+                <input type="text" id="product-image" placeholder="URL da Imagem" required>
+                <div class="form-buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <!-- Rodapé da aplicação -->
+    <footer>
+        <img src="img/logo.png" alt="Logotipo">
+        <p>Desenvolvido por Junior Cj</p>
+        <p>&copy; 2024 AluraGeek</p>
+    </footer>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
